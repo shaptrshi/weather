@@ -9,26 +9,19 @@ body {
 }
 
 #weather-container {
-    background: rgba(255, 255, 255, 0.3);
-    max-width: 400px;
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
     text-align: center;
 }
 
-h2, label, p {
+h1, label, p {
     color: #fff;
     margin: 8px 0;
 }
 
 input {
     width: calc(100% - 16px);
-    padding: 8px;
+    padding: 10px;
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 15px;
     border: 1px solid white;
     margin-top: 20px;
 }
@@ -55,7 +48,7 @@ button:hover {
 }
 
 #weather-info {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 #weather-icon {
@@ -67,7 +60,7 @@ button:hover {
 }
 
 #hourly-forecast {
-    margin-top: 50px;
+    margin-top: 60px;
     overflow-x: auto;
     white-space: nowrap;
     display: flex;
